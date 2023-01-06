@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+    font-family: "Poppins", sans-serif;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(66, 65, 65, 0.8)50%,rgba(48, 44, 44, 0.8)50%), url(back1.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+section div {
+    /* Set font properties */
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #fff;
+  
+    /* Add spacing and layout properties */
+    line-height: 1.5;
+    text-align: left;
+   padding: 60px;
+  
+    /* Set dimensions and background color */
+    width: 100%;
+    background:linear-gradient(to top, rgba(66, 65, 65, 0.8)50%,rgba(48, 44, 44, 0.8)50%), url(back1.png);
+  
+    /* Add margin */
+    margin: 25px auto;
+  
+    /* Make the box responsive to different screen sizes */
+    max-width: 1200px;
+    min-width: 320px;
+  }
+  footer div {
+    /* Set font properties */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(8, 8, 8);
+  
+    /* Add spacing and layout properties */
+    text-align: center;
+    padding: 20px;
+  
+    /* Set dimensions and background color */
+    width: 80%;
+    background-color: rgb(99, 95, 95);
+  
+    /* Add margin */
+    margin: 50px auto;
+  
+    /* Make the footer responsive to different screen sizes */
+    max-width: 1200px;
+    min-width: 320px;
+  }
+  @media screen and (max-width: 830px){
+    /*For tablet*/
+   
+    .content{
+        margin-top: 120px;
+        width: 80%;   
+        margin-left: 40px;  
+    }
+    .content h1, .content span{
+        font-size: 6vw; 
+    }
+    .content .par{
+        width: 90%;
+        font-size: 1.8vw;
+    }
+    .content .cn{
+        width: 15%;
+        height: 4.5vw;
+        font-size: 2vw;
+    }
+    .content a{
+        font-size: 2vw
+    }
+    .logo{
+        margin-left: 240px;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 5vw;
+    }
+    .menu{
+        width: 100%;
+    }
+    ul{
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+    ul li{
+        margin-left: 60px;
+    }
+    ul li a{
+       font-size: 2vw; 
+    }
+  }
