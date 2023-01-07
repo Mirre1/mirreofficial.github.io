@@ -377,7 +377,7 @@ grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
     /*mobile*/
     .logo{
         margin-left: 140px;
-        font-size: 4px;
+        font-size: 40px;
     }
     ul{
         margin-top: -25px;
