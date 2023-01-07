@@ -78,7 +78,7 @@ section div {
   
     /* Make the box responsive to different screen sizes */
     max-width: 1200px;
-    min-width: 300px;
+    min-width: 320px;
   }
   footer div {
     /* Set font properties */
@@ -99,7 +99,7 @@ section div {
   
     /* Make the footer responsive to different screen sizes */
     max-width: 1200px;
-    min-width: 300px;
+    min-width: 320px;
   }
   @media screen and (max-width: 830px){
     /*For tablet*/
@@ -144,169 +144,4 @@ section div {
        font-size: 2vw; 
     }
   }
-  @media screen and (max-width: 830px){
-    /*For tablet*/
-   
-    .content{
-        margin-top: 120px;
-        width: 80%;   
-        margin-left: 40px;  
-    }
-    .content h1, .content span{
-        font-size: 6vw; 
-    }
-    .content .par{
-        width: 90%;
-        font-size: 1.8vw;
-    }
-    .content .cn{
-        width: 15%;
-        height: 4.5vw;
-        font-size: 2vw;
-    }
-    .content a{
-        font-size: 2vw
-    }
-    .logo{
-        margin-left: 240px;
-        width: 100%;
-        margin-top: 15px;
-        font-size: 5vw;
-    }
-    .menu{
-        width: 100%;
-    }
-    ul{
-        margin-top: -5px;
-        margin-left: 5px;
-    }
-    ul li{
-        margin-left: 60px;
-    }
-    ul li a{
-       font-size: 2vw; 
-    }
-    .search{
-        margin-top: -20px;
-        margin-left: 60px;   
-    }   
-    .srch{
-        height: 30px;
-        width: 160px;
-        font-size: 12px;
-    }
-    .btn{
-        height:30px;
-        width: 70px;
-    }
-    .main{
-        padding-left: 20px;
-        height: 180vh;
-    }
-}
-@media screen and (max-width: 600px){
-    /*IPAD*/
-    
-    .content{
-        margin-top: 80px;
-        margin-left: 20px;
-    }
-    .search{
-        margin-top: -40px;
-        margin-left: 42px;
-    }
-    .logo{
-        margin-left: 180px;
-        font-size: 4vw;
-    }
-    ul{
-        margin-top: -25px;
-        margin-left: -5px;
-    }
-    ul li {
-        margin-left: 50px;
-    }
-    ul li a{
-        font-size: 2vw;
-    }   
-}
-
-@media screen and (max-width: 450px){
-    /*mobile*/
-    .logo{
-        margin-left: 140px;
-        font-size: 4vw;
-    }
-    ul{
-        margin-top: -25px;
-    }
-    ul li {
-        margin-left: 42px;
-    }
-    ul li a{
-        font-size: 2vw;
-    }  
-    .search{
-        margin-top: -40px;
-        margin-left: 38px;
-    } 
-    .srch{
-        height: 30px;
-        width: 160px;
-        font-size: 12px;
-    }
-    .btn{
-        height: 30px;
-        width: 70px;
-    }
-    .main{
-        padding-left: 20px;
-        height: 180vh;
-    }
-}
-@media screen and (max-width:600px) {
-    /*Ipad old version*/
-    .content{
-    margin-top: 80px;
-    margin-left: 20px;
-    }
-    .search{
-        margin-top: -40px;
-        margin-left: 42px;
-    }
-    .logo{
-        margin-left: 180px;
-        font-size: 4vw;
-    }
-    ul{
-        margin-top: -25px;
-        margin-left: -5px;
-    }
-    ul li{
-        margin-left: 50px;
-    }
-    ul li a{
-        font-size: 2vw;
-    }
-
-}
-@media screen and (max-width:450px) {
-    /* mobile */
-    .logo{
-        margin-left: 140px;
-        font-size: 4vw;
-    }
-    ul{
-        margin-top: -25px;
-    }
-    ul li{
-        margin-left: 42px;
-    }
-    ul li a{
-        font-size: 2vw;
-    }
-    .search{
-        margin-top: -40px;
-        margin-left: 38px;
-    }
-}
+  
