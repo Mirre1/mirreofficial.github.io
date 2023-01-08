@@ -17,11 +17,7 @@
     height: 75px;
     margin: auto;
 }
-.icon{
-    width: 200px;
-    float: left;
-    height: 70px;
-}
+
 .logo{
     color: #ff7200;
     font-size: 35px;
@@ -109,21 +105,8 @@ section div {
         width: 80%;   
         margin-left: 40px;  
     }
-    .content h1, .content span{
-        font-size: 6vw; 
-    }
-    .content .par{
-        width: 90%;
-        font-size: 1.8vw;
-    }
-    .content .cn{
-        width: 15%;
-        height: 4.5vw;
-        font-size: 2vw;
-    }
-    .content a{
-        font-size: 2vw
-    }
+    
+    
     .logo{
         margin-left: 240px;
         width: 100%;
@@ -183,20 +166,4 @@ section div {
     }
      .content{
         width: 100%;
-    }
-    .content h1, .content span{
-        font-size: 4.5vw; 
-    }
-    .content .par{
-        width: 90%;
-        font-size: 1.5vw;
-    }
-    .content .cn{
-        width: 13%;
-        height: 3.5vw;
-        font-size: 1.8vw;
-    }
-    .content a{
-        font-size: 1.6vw
-    }
-}
+    
