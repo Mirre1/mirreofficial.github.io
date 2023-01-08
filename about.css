@@ -159,6 +159,10 @@ section div {
     ul li a{
         font-size: 2vw;
     }
+    .content{
+        background: linear-gradient(to top, rgba(70, 69, 69, 0.8)50%,rgba(71, 70, 70, 0.8)50%);
+        width: 100%;
+    }
     
 }
 @media screen and (max-width:1200px) {
