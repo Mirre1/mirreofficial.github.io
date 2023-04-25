@@ -5,12 +5,11 @@
 }
 .main{
     width: 100%;
-    background-position: bottom;
+    background-image: relative;
     background-size: cover;
     height: 100vh;
 }
 body{
-     background-position: bottom;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background:linear-gradient(to top, rgba(66, 65, 65, 0.8)50%,rgba(48, 44, 44, 0.8)50%), url(back1.png);
