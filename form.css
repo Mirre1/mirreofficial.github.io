@@ -67,7 +67,7 @@ ul li a:hover{
     background: transparent;
     border: 1px solid #ff7200;
     margin-top: 13px;
-    color:#ffffff;
+    color: #fff;
     border-right: none;
     font-size: 16px;
     float: left;
@@ -162,9 +162,3 @@ input[type="submit"]:hover {
   clear: both;
   display: table;
 }
-
-
-
-
-
-  
