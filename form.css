@@ -28,6 +28,7 @@
     padding-top: 10px;
     margin-top: 5px
 }
+
 .menu{
     width: 400px;
     float: left;
@@ -143,7 +144,7 @@ input[type="radio"] + label {
   
 }
 
-input[type="submit"] {
+.register {
   background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
@@ -153,8 +154,8 @@ input[type="submit"] {
   float: center;
 }
 
-input[type="submit"]:hover {
-  background-color: #45a049;
+.register:hover {
+  background-color: white;
 }
 
 .clearfix::after {
