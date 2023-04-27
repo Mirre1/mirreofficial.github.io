@@ -144,6 +144,9 @@ ul li a:hover{
     color: #ff7200;
     font-size: 65px
 }
+.link{
+    color: black;
+}
 .form{
     width: 250px;
     height: 380px;
