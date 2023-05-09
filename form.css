@@ -152,7 +152,10 @@ input[type="radio"] + label {
   border-radius: 4px;
   cursor: pointer;
   float: center;
-  text-decoration:none;
+  
+}
+.register a{
+    text-decoration:none;
 }
 
 .register:hover {
